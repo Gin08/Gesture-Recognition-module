@@ -95,4 +95,4 @@ We want to scale the structure to the pen and add a sd card module back to store
 
 ## Acknowledgements
 
-I really thank all people who helped me in completing the project.
+I thank all people who helped me in completing the project.
