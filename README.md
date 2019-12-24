@@ -91,7 +91,7 @@ We want to scale the structure to the pen and add a sd card module back to store
 
 ## Contributor
 
-[aghinsa](github.com/aghinsa)
+[aghinsa](https://github.com/aghinsa)
 
 ## Acknowledgements
 
