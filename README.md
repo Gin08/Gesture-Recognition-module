@@ -4,14 +4,14 @@ This module will be able to convert our hand movement into charecters and symbol
 
 ## Requirements
 
-| Name of the component | Quantity |
-| :-------------------- | :------: |
-| Accelerometer MPU6050 |    1     |
-| Arduino Nano          |    1     |
-| Bluetooth Module      |    1     |
-| Push Button           |    2     |
-| LED                   |    2     |
-| Resistor (220Ω)       |    2     |
+| Name of the component    | Quantity |
+| :----------------------- | :------: |
+| Accelerometer MPU6050    |    1     |
+| Arduino Pro Micro/ Nano  |    1     |
+| Bluetooth Module         |    1     |
+| Push Button              |    2     |
+| LED                      |    2     |
+| Resistor (220Ω)          |    2     |
 
 ### Arduino IDE
 
@@ -87,7 +87,7 @@ Make sure you keep BAUDRATE same for everything i.e.,38400 and unique serial por
 
 ## Future plans
 
-We want to scale the structure to the pen and add a sd card module back to store the accelorometer data so that we can process the data in the computer to get the documented format of our hand written script.we also want to develop the algorimthm by bringing image processing.we also want to train many languages at same time. To create a wireless mouse pen used to do modelling or doodling easily.
+We want to scale the structure to the pen and add a sd card module back to store the accelorometer data so that we can process the data in the computer to get the documented format of our hand written script. We also want to develop the algorimthm by bringing image processing. We also want to train many languages at same time. To create a wireless mouse pen used to do modelling or doodling easily.
 
 ## Contributor
 
