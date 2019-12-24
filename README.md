@@ -1,6 +1,6 @@
 # Gesture-Recognition-module
 
-We made an electronic module using Arduino, Accelerometer, Bluetooth module which detects the our gesture offline. This module will be able to convert our hand movement into charecters and symbols. Our idea is to convert the accelorometer data of our hand movement into the sequence of charecters.
+This module will be able to convert our hand movement into charecters and symbols. Our idea is to convert the accelorometer data of our hand movement into the sequence of charecters.
 
 ## Requirements
 
