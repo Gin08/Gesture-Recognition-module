@@ -1,17 +1,17 @@
 # Gesture-Recognition-module
 
-We made an electronic module using Arduino, Accelerometer, Bluetooth module which detects the our gesture offline. This module will be able to convert our hand movement into charecters and symbols. Our idea is to convert the accelorometer data of our hand movement into the sequence of charecters.
+This module will be able to convert our hand movement into charecters and symbols. Our idea is to convert the accelorometer data of our hand movement into the sequence of charecters.
 
 ## Requirements
 
-| Name of the component | Quantity |
-| :-------------------- | :------: |
-| Accelerometer MPU6050 |    1     |
-| Arduino Nano          |    1     |
-| Bluetooth Module      |    1     |
-| Push Button           |    2     |
-| LED                   |    2     |
-| Resistor (220Ω)       |    2     |
+| Name of the component    | Quantity |
+| :----------------------- | :------: |
+| Accelerometer MPU6050    |    1     |
+| Arduino Pro Micro/ Nano  |    1     |
+| Bluetooth Module         |    1     |
+| Push Button              |    2     |
+| LED                      |    2     |
+| Resistor (220Ω)          |    2     |
 
 ### Arduino IDE
 
@@ -25,7 +25,7 @@ If you are using windows, the easiest way to download the needed libraries is to
 
 ## Electrical Circuit & Working Principle
 
-Microcontroller(ArduinoNano)is used to take signals from accelerometer(SCL,SDA). One pushbutton is used to control the data from accelerometer to microcontroller which is indicated by one of the lED’s. Another pushbutton is used to control the data sent i.e, either via bluetooth module or cable which is also indicated by the other LED. Bluetooth module is used for connecting the microcontroller and device(i.e., PC) using RX and TX communication. Powerbank usually powers the microcontroller or you can use the USB cord and turn off the Bluetooth module.
+Microcontroller(Arduino Nano)is used to take signals from accelerometer(SCL,SDA). One pushbutton is used to control the data from accelerometer to microcontroller which is indicated by one of the lED’s. Another pushbutton is used to control the data sent i.e, either via bluetooth module or cable which is also indicated by the other LED. Bluetooth module is used for connecting the microcontroller and device(i.e., PC) using RX and TX communication. Powerbank usually powers the microcontroller or you can use the USB cord and turn off the Bluetooth module.
 
 ![Circuit](images/circuit.png)
 
@@ -83,16 +83,16 @@ Problem occurred due to matplotlib version 2.2.0. The command mentioned below so
 pip install matplotlib==2.0.2
 ```
 
-Make sure you keep BAUDRATE same for everything i.e.,38400 and unique serial port
+Make sure you keep BAUDRATE same for everything i.e.,38400 and unique serial port.
 
 ## Future plans
 
-We want to scale the structure to the pen and add a sd card module back to store the accelorometer data so that we can process the data in the computer to get the documented format of our hand written script.we also want to develop the algorimthm by bringing image processing.we also want to train many languages at same time. To create a wireless mouse pen used to do modelling or doodling easily.
+We want to scale the structure to the pen and add a sd card module back to store the accelorometer data so that we can process the data in the computer to get the documented format of our hand written script. We also want to develop the algorimthm by bringing image processing. We also want to train many languages at same time. To create a wireless mouse pen used to do modelling or doodling easily.
 
 ## Contributor
 
-[aghinsa](github.com/aghinsa)
+[aghinsa](https://github.com/aghinsa)
 
 ## Acknowledgements
 
-I really thank all people who helped me in completing the project.
+I thank all people who helped me in completing the project.
