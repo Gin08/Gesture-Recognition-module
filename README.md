@@ -89,7 +89,7 @@ Make sure you keep BAUDRATE same for everything i.e.,38400 and unique serial por
 
 We want to scale the structure to the pen and add a sd card module back to store the accelorometer data so that we can process the data in the computer to get the documented format of our hand written script. We also want to develop the algorimthm by bringing image processing. We also want to train many languages at same time. To create a wireless mouse pen used to do modelling or doodling easily.
 
-## Contributor
+## Contributors
 
 [aghinsa](https://github.com/aghinsa)
 
